@@ -1,9 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".user.Register">
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".user.Login">
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"/>
+    <!--        android:background="@drawable/back"-->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/form"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="FORM REGISTRASI USER"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="40dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tr_nama"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Nama Lengkap"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="55dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/nama"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/stroke"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:id="@+id/tr_username"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Username"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="95dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/r_username"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/stroke"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:id="@+id/tr_email"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="E-mail"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="135dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/r_email"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="135dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/stroke"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:id="@+id/tr_alamat"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:text="Alamat"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="175dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/r_alamat"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="175dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/stroke"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:id="@+id/tr_telp"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="E-mail"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="245dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/r_telp"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="245dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/stroke"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:id="@+id/tr_password"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Password"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="285dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/r_password"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="285dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/stroke"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:id="@+id/tr_r_password"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:text="Ulangi Password"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="325dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/r_r_password"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="325dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/stroke"
+                    android:padding="7dp"/>
+            </RelativeLayout>
+<Button
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="registrasi">
+
+</Button>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

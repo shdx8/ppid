@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/beranda"
+        android:title="Beranda"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/notifikasi"
+        android:title="Notifikasi"
+        android:icon="@drawable/ic_notifications"/>
+    <item
+        android:id="@+id/pengajuan"
+        android:title="Pengajuan"
+        android:icon="@drawable/ic_chat"/>
+    <item
+        android:id="@+id/master"
+        android:title="Master"
+        android:icon="@drawable/ic_filter"/>
+    <item
+        android:id="@+id/user"
+        android:title="User"
+        android:icon="@drawable/ic_person"/>
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/beranda">
+
+    <fragment
+        android:id="@+id/beranda"
+        android:name="com.pkl.e_ppid.Beranda"
+        android:label="fragment_beranda"
+        tools:layout="@layout/fragment_beranda" />
+    <fragment
+        android:id="@+id/notifikasi"
+        android:name="com.pkl.e_ppid.Notifikasi"
+        android:label="fragment_notifikasi"
+        tools:layout="@layout/fragment_notifikasi" />
+    <fragment
+        android:id="@+id/pengajuan"
+        android:name="com.pkl.e_ppid.Pengajuan"
+        android:label="fragment_pengajuan"
+        tools:layout="@layout/fragment_pengajuan" />
+    <fragment
+        android:id="@+id/master"
+        android:name="com.pkl.e_ppid.Master"
+        android:label="fragment_master"
+        tools:layout="@layout/fragment_master" />
+    <fragment
+        android:id="@+id/user"
+        android:name="com.pkl.e_ppid.User"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+</navigation>
