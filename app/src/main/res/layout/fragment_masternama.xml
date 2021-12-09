@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pengajuan">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context=".Notifikasi">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,75 +24,57 @@
             tools:layout_editor_absoluteY="135dp">
 
             <TextView
-                android:id="@+id/pemohon"
+                android:id="@+id/nama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="1dp"
-                android:text="Pemohon"
-                android:textSize="12sp" />
+                android:text="Nama SKPD"
+                android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/param1"
+                android:id="@+id/nama1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="@string/tanggal_waktu"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/skpd"
+                android:id="@+id/alamat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="1dp"
-                android:text="SKPD"
-                android:textSize="12sp" />
+                android:text="Alamat"
+                android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/skpd1"
+                android:id="@+id/alamat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/tanggal_waktu"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Notelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:text="No Telpon"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/notlp1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="@string/notifikasi"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/tujuan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:text="Tujuan"
-                android:textSize="12sp" />
-
-            <TextView
-                android:id="@+id/tujuan1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:text="@string/notifikasi"
-                android:textSize="12sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/status"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:text="Status"
-                android:textSize="12sp" />
-
-            <TextView
-                android:id="@+id/status1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:text="@string/notifikasi"
-                android:textSize="12sp"
-                android:textStyle="bold" />
         </LinearLayout>
 
     </RelativeLayout>
-
 
 </FrameLayout>
