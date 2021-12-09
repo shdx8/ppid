@@ -35,7 +35,11 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 android:text="Selamat Datang, "
+=======
+                android:text="@string/user"
+>>>>>>> Stashed changes
 =======
                 android:text="@string/user"
 >>>>>>> Stashed changes
@@ -51,7 +55,11 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 android:text="Nama:"
+=======
+                android:text="@string/nama"
+>>>>>>> Stashed changes
 =======
                 android:text="@string/nama"
 >>>>>>> Stashed changes
@@ -67,7 +75,11 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 android:text="Username:"
+=======
+                android:text="@string/username"
+>>>>>>> Stashed changes
 =======
                 android:text="@string/username"
 >>>>>>> Stashed changes
@@ -83,7 +95,11 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 android:text="E-mail:"
+=======
+                android:text="@string/email"
+>>>>>>> Stashed changes
 =======
                 android:text="@string/email"
 >>>>>>> Stashed changes
