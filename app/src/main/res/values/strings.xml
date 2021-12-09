@@ -2,4 +2,8 @@
     <string name="app_name">E-PPID</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user">"Selamat Datang, "</string>
+    <string name="nama">"Nama: "</string>
+    <string name="username">"Username: "</string>
+    <string name="email">"E-mail: "</string>
 </resources>
