@@ -1,10 +1,14 @@
 package com.pkl.e_ppid;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.navigation.NavController;
 
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+
+import com.google.android.material.bottomnavigation.BottomNavigationItemView;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 

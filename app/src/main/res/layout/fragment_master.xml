@@ -6,12 +6,9 @@
     tools:context=".Master">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <RelativeLayout
         android:layout_width="match_parent"
-<<<<<<< Updated upstream
-        android:layout_height="match_parent"
-        android:text="Master" />
-=======
         android:layout_height="489dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="80dp"
@@ -72,6 +69,5 @@
 
     </RelativeLayout>
 
->>>>>>> Stashed changes
 
 </FrameLayout>
