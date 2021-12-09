@@ -9,7 +9,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="80dp"
         android:layout_marginLeft="20dp"
@@ -18,9 +18,11 @@
         android:background="@drawable/form">
 
         <LinearLayout
-            android:layout_width="282dp"
-            android:layout_height="452dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="65dp"
             tools:layout_editor_absoluteY="135dp">
@@ -29,68 +31,68 @@
                 android:id="@+id/pemohon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
                 android:text="Pemohon"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/param1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:text="@string/tanggal_waktu"
-                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:text="tanggal_waktu"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/skpd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
                 android:text="SKPD"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/skpd1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:text="@string/notifikasi"
-                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:text="notifikasi"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tujuan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
                 android:text="Tujuan"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/tujuan1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:text="@string/notifikasi"
-                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:text="notifikasi"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/status"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
                 android:text="Status"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/status1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:text="@string/notifikasi"
-                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:text="notifikasi"
+                android:textSize="16sp"
                 android:textStyle="bold" />
         </LinearLayout>
 

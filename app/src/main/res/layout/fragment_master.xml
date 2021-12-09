@@ -19,7 +19,7 @@
 
         <LinearLayout
             android:layout_width="280dp"
-            android:layout_height="376dp"
+            android:layout_height="280dp"
             android:orientation="vertical"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="65dp"
@@ -27,49 +27,44 @@
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:elevation="4dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="10dp"
-                android:background="@color/cyan"
+                android:background="@drawable/button_rounded"
                 android:text="File Pengajuan SKPD"
                 android:textAllCaps="false"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="14dp" />
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:elevation="4dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
-                android:layout_marginBottom="10dp"
-                android:background="@color/cyan"
+                android:background="@drawable/button_rounded"
                 android:text="Master User"
                 android:textAllCaps="false"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="14dp" />
 
             <Button
                 android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:elevation="4dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
-                android:layout_marginBottom="10dp"
-                android:background="@color/cyan"
+                android:background="@drawable/button_rounded"
                 android:text="Master Nama SKPD"
                 android:textAllCaps="false"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="14dp" />
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="281dp"
-            android:layout_height="wrap_content"
-            android:text="Master" />
 
 
     </RelativeLayout>
