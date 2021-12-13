@@ -6,12 +6,6 @@
     tools:context=".User">
 
     <!-- TODO: Update blank fragment layout -->
-<<<<<<< Updated upstream
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="user"/>
-=======
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -259,6 +253,5 @@
         </LinearLayout>
 
     </RelativeLayout>
->>>>>>> Stashed changes
 
 </FrameLayout>
